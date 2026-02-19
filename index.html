@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quran Sharif With Urdu Translation</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter', sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom, #f8fafc, #e2e8f0);
+    color:#1e293b;
+}
+
+/* Hero Section */
+.hero{
+    padding:20px;
+    text-align:center;
+}
+
+.hero img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:16px;
+}
+
+h1{
+    font-size:26px;
+    margin-top:20px;
+    font-weight:700;
+}
+
+.subtitle{
+    margin-top:10px;
+    font-size:15px;
+    color:#475569;
+    line-height:1.5;
+}
+
+/* Button */
+.cta-container{
+    text-align:center;
+    margin-top:25px;
+}
+
+.cta-btn{
+    display:inline-block;
+    width:90%;
+    max-width:400px;
+    padding:18px;
+    font-size:18px;
+    font-weight:600;
+    background:#16a34a;
+    color:white;
+    border-radius:14px;
+    text-decoration:none;
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.cta-btn:active{
+    transform:scale(0.97);
+}
+
+/* Guide Section */
+.guide{
+    margin-top:40px;
+    padding:20px;
+}
+
+.guide h2{
+    text-align:center;
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+video{
+    width:100%;
+    border-radius:14px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Steps */
+.steps{
+    margin-top:20px;
+    font-size:15px;
+    line-height:1.6;
+    color:#334155;
+}
+
+.steps li{
+    margin-bottom:10px;
+}
+
+/* Sticky Bottom Button (Android Friendly) */
+.sticky-cta{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background:white;
+    padding:12px;
+    box-shadow:0 -4px 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.sticky-cta a{
+    display:block;
+    background:#16a34a;
+    color:white;
+    padding:14px;
+    border-radius:12px;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.footer-space{
+    height:90px; /* prevents content hiding behind sticky button */
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+    <img src="./alessa-ciraulo-r-cy77rA0J0-unsplash.jpg" alt="Mosque">
+
+    <h1>Quran Sharif With Urdu Translation</h1>
+
+    <div class="subtitle">
+        Recitation: Mishary bin Raashid Al Afasy<br>
+        Urdu Translation: Fateh Muhammad Jalandhary
+    </div>
+
+    <div class="cta-container">
+        <a class="cta-btn" 
+        href="https://drive.google.com/drive/folders/1w_znmPrA1rPn2xlxhPgKghJp2Mk_9vVm?usp=drive_link"
+        target="_blank">
+        📂 Open Quran Folder
+        </a>
+    </div>
+
+</section>
+
+<section class="guide">
+
+    <h2>📖 How to Play Audio</h2>
+
+    <!-- Replace guide.mp4 with your actual video -->
+    <video controls>
+        <source src="guide.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+    <ul class="steps">
+        <li>1️⃣ Tap "Open Quran Folder"</li>
+        <li>2️⃣ Select any Surah audio file</li>
+        <li>3️⃣ Tap once to preview</li>
+        <li>4️⃣ Press ▶ Play button</li>
+        <li>5️⃣ You can also download for offline listening</li>
+    </ul>
+
+</section>
+
+<div class="footer-space"></div>
+
+<!-- Sticky Android CTA -->
+<div class="sticky-cta">
+    <a href="https://drive.google.com/drive/folders/1w_znmPrA1rPn2xlxhPgKghJp2Mk_9vVm?usp=drive_link" target="_blank">
+        📂 Open Quran Folder
+    </a>
+</div>
+
+</body>
+</html>
